@@ -12,6 +12,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class SpringBootUserApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
         System.out.println("项目启动拉");
+        System.out.println("这个东西很简单，练练就会乐");
         SpringApplication.run(SpringBootUserApplication.class,args);
     }
 
